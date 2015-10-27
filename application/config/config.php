@@ -505,3 +505,21 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+/*
+|--------------------------------------------------------------------------
+| Default Layout
+|--------------------------------------------------------------------------
+|
+| This option it's can assume two different types of values. A STRING or a
+| BOOLEAN. 
+| If a String value it's used, it need to be a valid name of a 
+| view, that view will be used as a layout in the two step view pattern.
+| If a Boolean value it's used, it can be only the FALSE value. It 
+| represents that no layout and no two step view will be used.
+| 
+| This options it's not a standard of the CodeIgniter and was added as
+| a need of the Sti_Loader class.
+|
+*/
+$config['default_layout'] = false;
