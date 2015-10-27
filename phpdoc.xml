@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+  <title>Application Name</title>
+  <parser>
+  	<target>docs/auto/out</target>
+  </parser>
+  <transformer>
+    <target>docs/auto</target>
+  </transformer>
+  <transformations>
+    <template name="responsive-twig" />
+  </transformations>
+  <files>
+    <directory>application/core</directory>
+    <directory>application/controllers</directory>
+  </files>
+</phpdoc>
