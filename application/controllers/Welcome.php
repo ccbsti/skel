@@ -1,6 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * Welcome controller
+ *
+ * @author Code Igniter Team
+ * @package Application_Controllers
+ */
 class Welcome extends CI_Controller {
 
 	/**
